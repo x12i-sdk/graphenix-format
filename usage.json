@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "package": "@x12i/graphenix-format-docs",
+  "packageVersion": "1.0.0",
+  "npmUrl": "https://www.npmjs.com/package/@x12i/graphenix-format-docs",
+  "usageRepository": "https://github.com/x12i-sdk/graphenix-format",
+  "sourceRepository": null,
+  "sourceCommit": null,
+  "sourcePackageDirectory": null,
+  "example": {
+    "title": "List the bundled guides and read a use case",
+    "entrypoint": "src/index.mjs",
+    "command": "npm start",
+    "requiresCredentials": false,
+    "validation": "passed",
+    "validatedAt": "2026-10-24T13:02:28.277582+00:00",
+    "isolatedInstallation": true,
+    "sourceSha256": "e8948a46492052cf801272bce65f3457062727edab1dee80ec8413f9a3507b73",
+    "manifestSha256": "9c12a33e8ec0ac39079c59aa88e2070470b4271c680c6bbeb983c06ea27350ca"
+  },
+  "npmPackages": [
+    "@x12i/graphenix-format-docs"
+  ],
+  "publisher": "x12i-publisher[bot]"
+}
