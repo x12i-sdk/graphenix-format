@@ -2,14 +2,15 @@
   "name": "graphenix-format-usage",
   "version": "1.0.0",
   "private": true,
-  "description": "Usage example for @x12i/graphenix-format-docs: list the bundled guides and read a use case.",
+  "description": "Tested consuming examples for @x12i/graphenix-format-docs, @x12i/graphenix-format",
   "type": "module",
   "engines": {
     "node": ">=24"
   },
   "scripts": {
     "start": "node src/index.mjs",
-    "check": "node --check src/index.mjs"
+    "check": "node --check src/index.mjs",
+    "example:graphenix-format": "node src/graphenix-format-example.mjs"
   },
   "devDependencies": {
     "@x12i/graphenix-format-docs": "1.0.0"
@@ -18,5 +19,8 @@
     "type": "git",
     "url": "https://github.com/x12i-sdk/graphenix-format.git"
   },
-  "homepage": "https://www.npmjs.com/package/@x12i/graphenix-format-docs"
+  "homepage": "https://www.npmjs.com/package/@x12i/graphenix-format-docs",
+  "dependencies": {
+    "@x12i/graphenix-format": "2.0.0"
+  }
 }

@@ -13,13 +13,31 @@
     "command": "npm start",
     "requiresCredentials": false,
     "validation": "passed",
-    "validatedAt": "2026-10-24T13:02:28.277582+00:00",
+    "validatedAt": "2026-10-24T14:53:53.263731+00:00",
     "isolatedInstallation": true,
     "sourceSha256": "e8948a46492052cf801272bce65f3457062727edab1dee80ec8413f9a3507b73",
-    "manifestSha256": "9c12a33e8ec0ac39079c59aa88e2070470b4271c680c6bbeb983c06ea27350ca"
+    "manifestSha256": "6afdb5510eca82e47d6367387bc2166a87fe677a848e154a7d9e75fc2a77a340"
   },
   "npmPackages": [
     "@x12i/graphenix-format-docs"
   ],
-  "publisher": "x12i-publisher[bot]"
+  "publisher": "x12i-publisher[bot]",
+  "additionalExamples": {
+    "@x12i/graphenix-format": {
+      "packageVersion": "2.0.0",
+      "title": "Validate a graph draft after adding an application node",
+      "entrypoint": "src/graphenix-format-example.mjs",
+      "command": "npm run example:graphenix-format",
+      "requiresCredentials": false,
+      "validation": "passed",
+      "isolatedInstallation": true,
+      "sourceSha256": "b59f3164ef68235e42d5179215a577c4e335092365de5f8eb5064324b02660d6",
+      "manifestSha256": "6afdb5510eca82e47d6367387bc2166a87fe677a848e154a7d9e75fc2a77a340",
+      "validatedAt": "2026-10-24T14:53:53.263731+00:00"
+    }
+  },
+  "validationFiles": {
+    "src/graphenix-format-example.mjs": "b59f3164ef68235e42d5179215a577c4e335092365de5f8eb5064324b02660d6",
+    "src/index.mjs": "e8948a46492052cf801272bce65f3457062727edab1dee80ec8413f9a3507b73"
+  }
 }
